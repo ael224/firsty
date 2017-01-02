@@ -7,3 +7,6 @@ fetch(url)
     .then(function (text) {
         console.log(text)
     })
+    .catch(error => {
+        console.log(error)
+    })
